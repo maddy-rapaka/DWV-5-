@@ -1,0 +1,5 @@
+1)import requests
+2)response=requests.get("https://en.wikipedia.org/robots.txt")
+3)if response.status_code==200:
+    test=response.text
+4)print(test)
